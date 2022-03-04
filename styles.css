@@ -76,7 +76,7 @@ li a {
 .middleContainer img {
 
 	width: 15%;
-	margin: 50px auto 10px auto;
+	margin: 30px auto 10px auto;
 
 }
 
@@ -141,13 +141,23 @@ li a {
 
 .profile {
 
-	padding: 10px 10px;
+	padding: 0px 10px;
 	width: 50%;
 	margin-left: 25%;
+	bottom: 40px;
+
 
 }
 
+.profile h2 {
 
+    font-size: 1.5em;
+    color: #54BAB9;
+    width: 100%;
+    margin: 3px auto 10px auto;
+
+
+}
 
 .bottom-container{
 
