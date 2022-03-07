@@ -10,7 +10,8 @@ body {
 	padding: 0;
 	text-align: center;
 	font-family: fantasy;
-	background-color:#e0ebe8;
+	height: 920px;
+	
 
 }
 
@@ -66,10 +67,19 @@ li a {
 
 
 
-.navbar-wrapper {
-
-	height: 200px;
-	background-color: lightcyan;
+.nav-warpper{
+position: absolute;
+margin: 0;
+border: 0;
+height: 170px;
+top: 0;
+background-color: #e0ebe8;
+width: 100%;
+min-height: 12.5vh;
+/* testing 
+border: 2px red;
+border-radius: 5px;
+border-style: dotted; */
 
 }
 
@@ -94,29 +104,36 @@ li a {
 
 
 .topContainer {
-	margin-top: 60px;
-	position: relative;
-	top: 150px;
-	height: 11.25em;
+
+position: relative;
+top: 7.5em;
+	height: 85vh;
 	width: 100%;
-	/*
-	background-color: lightseagreen;
-	*/
+	
+	    background-color: #e0ebe8;
+	
+
+	/* testing 
+border: 2px red;
+border-radius: 5px;
+border-style: dotted; */
 	
 }
 
-
-.topContainer h1 {
-
+.textAlign {
 	position: relative;
-	bottom: 140px;
+	top: 70px;
+	/* testing 
+border: 2px red;
+border-radius: 5px;
+border-style: dotted; */
+
 }
 
 
-.topContainer  h2 {
 
-	position: relative;
-	bottom: 150px;
+.textAlign  h2 {
+
 	color: black;
 	font-size: 20px;
 
@@ -130,45 +147,55 @@ li a {
 }
 
 .middleContainer{
-
+		bottom: 380px;
     position: relative;
-    top: 380px;
-    margin: 50px auto 30px auto;
+    margin: 0 auto 0 auto;
     /* background-color: red; */
-    height: 350px;
-    background-color: white;
+    height: 510px;
+    background-color: lightseagreen;
+
 
 }
 
 .profile {
 
 	padding: 5px;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto 0 auto;
-	bottom: 40px;
+	height: 150px;
+	/* testing 
+border: 2px yellow;
+border-radius: 5px;
+border-style: dotted; */
+
+
 
 
 }
 
 .profile h2 {
 
-		position: relative;
-    font-size: 1.5em;
-    color: #54BAB9;
-    width: 100%;
-    margin: 0 auto 0 auto;
-		bottom: 15px;
+	
+    font-size: 1.6em;
+    /*color: #54BAB9;*/
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto 0 auto;
 
 }
+
 
 .profile p {
 
-position: relative;
-		display: block;
-margin: 0 auto 0 auto;
-bottom: 20px;
+     font-size: 1.4em;
+     text-align: center;
+     margin: 20px auto 0 auto;
+       color: white;
+
 
 }
+
 
 .bottom-container{
 
@@ -199,85 +226,110 @@ bottom: 20px;
 .skill-row{
 
 	position: relative;
-	width: 85%;
-	margin: 70px auto 10px auto;
+	width: 70%;
+	margin: 150px auto 30px auto;
 	text-align: left;
 	line-height: 2;
 	bottom: 30px;
-	height: 225px;
+	height: 265px;
+			/* testing */
+border: 2px lightseagreen;
+border-radius: 5px;
+border-style: dotted; 
 }
 
 .skill-row2{
 
 	position: relative;
-	width: 85%;
-	margin: 30px auto 10px auto;
-	text-align: left;
+	width: 70%;
+	margin: 50px auto 10px auto;
+	text-align: center;
 	line-height: 2;
-	bottom: 5px;
-	height: 225px;
+	height: 265px;
+			/* testing */
+border: 2px lightseagreen;
+border-radius: 5px;
+border-style: dotted; 
+
+
 
 }
 
-.skill-row2 h3 {
-
-	font-size: 17px;
-}
 
 .skill-row p {
 
-  font-size: 15px;
-  text-align: justify;
-
-}
-
-
-.skill-row2 p {
-
-  font-size: 15px;
-  text-align: justify;
+  font-size: 17px;
+   text-align: left;
 
 }
 
 .skill-row h3 {
 
-font-size: 18px;
+font-size: 20px;
+ text-align: left;
+
 
 }
 
 
+
+.skill-row2 h3 {
+
+	font-size: 20px;
+	text-align: right;
+}
+
+
+
+.skill-row2 p {
+
+  font-size: 17px;
+  text-align: right;
+
+}
+
+
+
+
 .skills h2 {
 	position: relative;
-	bottom: 40px;
+	bottom: 2px;
 	font-size: 35px;
-	border-radius: 25px;
-	border-width: 1px;
-	border-style: dashed;
+
 	background-color:#e0ebe8;
 	padding: 12px 0 12px 0;
 }
 
 .skills {
-	padding: 20px 20px;
+
 	position: relative;
-	top: 290px;
 	margin: 0 auto 5px auto;
 	background-color: white;
 	width: 100%;
-	height: 650px;
+	height: 800px;
+	bottom: 24em;
+		/* testing
+border: 2px blue;
+border-radius: 5px;
+border-style: dotted; */
 }
 
 .code-img{
-	width: 25%;
+	width: 15%;
+	min-width: 120px;
+	max-width: 200px;
 	float: left;
-	margin-right: 30px;
+	margin: 10px 20px 20px 20px;
+
 }
 
 
 .chilli-img{
-	width: 25%;
-	float: right;
-	margin-left: 30px;
+width: 15%;
+    min-width: 120px;
+    max-width: 200px;
+    float: right;
+   	margin: 10px 20px 20px 20px;
 }
 
 
@@ -320,9 +372,13 @@ font-size: 18px;
 .copyright-wrapper {
 
 	position: relative;
-	top: 250px;
 	height: 130px;
 	background-color:#e0ebe8;
+	bottom: 350px;
+	/* testing 
+border: 3px darkblue;
+border-radius: 5px;
+border-style: dotted; */
 
 }
 
@@ -342,7 +398,7 @@ font-size: 18px;
 
 .navbar {
 
-	background-color: #e0ebe8;
+
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
@@ -393,17 +449,55 @@ font-size: 18px;
 
 
 
+.top_cloud_wrapper {
+margin: 10px;
+	position: relative;
+	height: 25%;
+	max-width: 20%;
+	bottom: 80px;
+	left: 75%;
+	top: 2em;
+	/* testing 
+	border: 2px red;
+	border-radius: 5px;
+	border-style: dotted; */
+
+
+
+}
+
+
+.top_cloud_wrapper img {
+
+
+	position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+	/* testing 
+	border: 2px blue;
+	border-radius: 5px;
+	border-style: dotted; */
+		
+}
+
+
 .bottom_cloud_wrapper {
 
 	position: relative;
-	height: 30%;
-  width: 30%;
-	left: 4%;
-	bottom: 180px;
+	height: 13%;
+  width: 15%;
+	left: 14%;
+	bottom: 175px;
 	/*
 	background-color: lightsalmon;
 	opacity: 0.2;
 	*/
+	/* testing 
+	border: 2px pink;
+	border-radius: 5px;
+	border-style: dotted; */
+
 
 }
 
@@ -417,66 +511,67 @@ font-size: 18px;
 	min-height: 75%;
 	max-height: 75%;
   margin: 0 auto 0 auto;
-	right: 15%;
-	bottom: 115%;
+
+
+
+	
 
 }
 
 
 
 
-.top_cloud_wrapper {
-
-	position: relative;
-	height: 30%;
-  width: 30%;
-	left: 70%;
-	bottom: 80px;
-	/*
-	background-color: red;
-	opacity: 0.2;
-	*/
-
-}
-
-
-.top_cloud_wrapper img {
-
-	padding-top: 10px;
-	position: relative;
-	min-width: 50%;
-	max-width: 35%;
-	min-height: 75%;
-
-		
-
-}
 
 
 
 .mountain-wrapper {
 
   position: relative;
-  height: 16.5625em;
-  width: 100%;
+  height: 500px;
+  width: 90%;
   margin: 0 auto 0 auto;
-  bottom: 65%;
-  /* background-color: lightcyan; */
+  /* Using flex method to set div in the bottom and center img */
+  bottom: 380px;
+ 	display: flex;
+ 	justify-content: center;
+	align-items: flex-end;
+  		/* testing 
+	border: 2px blueviolet;
+	border-radius: 5px;
+	border-style: dotted; */
+
 
 }
-
 
 
 .mountain-wrapper img {
 
-  position: relative;
-  top: 5px;
-  height: 100%;
-  max-width: 80%;
-  min-width: 70%;
- 
 
+width: 70%;
+max-height: 75%;
+min-height: 70%;
 }
+
+
+
+
+
+.topContainer img {
+
+	 position: relative;
+	bottom: 82px;
+  height: 60%;
+  width: 90%;
+  max-width: 1000px;
+  min-width: 300px;
+
+  	/* testing 
+border: 2px pink;
+border-radius: 5px;
+border-style: dotted; */
+}
+
+
 
 .toggle-button {
 
@@ -503,9 +598,14 @@ font-size: 18px;
 
 background-color: lightpink;
 position: relative;
-top: 280px;
-height: 340px;
+height: 300px;
 background-color: white;
+bottom: 350px;
+	/* testing 
+border: 3px darkgreen;
+border-radius: 5px;
+border-style: dotted; */
+
 
 }
 
@@ -529,8 +629,14 @@ height: 100px;
 margin: 0;
 border: 0;
 width: 100%;
-top: 250px;
+bottom: 350px;
+	/* testing 
 
+border: 3px pink;
+border-radius: 5px;
+border-style: dotted;
+bottom: 350px; */
+ 
 }
 
 
@@ -539,6 +645,7 @@ top: 250px;
 
  font-size: 28px;
  margin: 15px auto;
+ color: #1e836c;;
 
 }
 
@@ -546,6 +653,7 @@ top: 250px;
 
  font-size: 20px;	
  margin: 25px auto;
+ color: #45b29a;;
 }
 
 .contact-me p {
@@ -603,13 +711,15 @@ top: 250px;
 
 	}
 
+}
 
+@media screen and (min-width: 393px)
+
+{
 
 
 
 }
-
-
 
 
 
